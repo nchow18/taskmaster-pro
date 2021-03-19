@@ -1,0 +1,32 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "![Badge](https://img.shields.io/badge/AWESOME-COOL-yellow.svg)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^8.0.0",
+    "mysql2": "^2.2.5",
+    "nit": "0.0.5",
+    "sequelize": "^6.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nchow18/Note-Taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nchow18/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/nchow18/Note-Taker#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "keywords": []
+}
