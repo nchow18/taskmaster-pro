@@ -1,0 +1,88 @@
+* {
+    top: 0;
+    left: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.top-bar {
+    background-color: rgb(215, 55, 55);
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    grid-row: 1 / span 1
+}
+
+.manager-row {
+    grid-row: 2 / span 1;
+    padding: 1rem;
+    background-color: rgb(140, 140, 205);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.engineer-row {
+    grid-row: 3 / span 1;
+    padding: 1rem;
+    background-color: rgb(254, 223, 228);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intern-row {
+    grid-row: 4 / span 1;
+    padding: 1rem;
+    background-color: rgb(172, 172, 172);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 15rem;
+    width: 15rem;
+    background-color: rgb(222, 222, 222);
+    box-shadow: 0 0 15px rgb(91, 91, 91);
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.title {
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    background-color: rgb(92, 92, 206);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.name {
+    padding-top: .5rem;
+    padding-left: .5rem;
+    color: white;
+}
+
+.position {
+    padding-top: .5rem;
+    padding-left: .5rem;
+    color: white;
+}
+
+.card-details {
+    padding: 1rem .5rem 1rem .5rem;
+
+}
+
+.data {
+    padding: .5rem;
+    margin: .1rem;
+    background-color: white;
+    font-size: .8rem;
+}

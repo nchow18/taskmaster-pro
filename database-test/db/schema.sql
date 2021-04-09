@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS chat_group;
+CREATE DATABASE chat_group;

@@ -1,0 +1,26 @@
+.new-post-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    padding: 2rem;
+    background-color: rgb(97, 45, 97);
+    border-radius: 15px;
+    box-shadow: 10px 10px 25px rgb(0,0,0,0.75);
+}
+
+.new-post-form {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spacing {
+    margin: 1rem 0 1rem 0;
+    height: 2rem;
+    width: 100%;
+}
+
+.post-height {
+    height: 4rem;
+}

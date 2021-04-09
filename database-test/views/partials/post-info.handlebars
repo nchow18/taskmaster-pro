@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="/stylesheets/postHB.css">
+<div class="post-container">
+    <div class="post-id">
+        <p>{{id}}</p>
+    </div>
+    <div class="post-content">
+        <a href="/post/{{id}}">{{title}}</a>
+        <p>{{post_text}}</p>
+        <p>{{user.username}} - {{created_at}}</p>
+        
+        {{#if loggedIn}}
+            <a href="/dashboard/edit/{{posts.id}}" class="edit-post">Edit Post</a>
+        {{/if}}
+    </div>
+</div>

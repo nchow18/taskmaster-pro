@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="/stylesheets/postHB.css">
+
+{{#if loggedIn}}
+    <form class="center-item">
+        <label for="post-text">post:</label>
+        <input type="text" id="post-text"/>
+    </form>
+{{/if}}
+
+<ol>
+    {{#each posts as |posts|}}
+            {{> post-info posts}}
+    {{/each}}
+</ol>

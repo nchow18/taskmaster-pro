@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="/stylesheets/dashboardHB.css"/>
+<h2>Create New Post</h2>
+
+<section class="new-post-container">
+    <form class="new-post-form">
+        <div>
+            <label for="post-title">Title:</label>
+            <input class="spacing" type="text" id="post-title" name="post-title"/>
+        </div>
+        <div>
+            <label for="post-text">Post:</label>
+            <input class="spacing post-height" type="text" id="post-text" name="post-text"/>
+        </div>
+        <button class="spacing" type="submit" class="">Create Post</button>
+    </form>
+
+</section>
+
+{{#if posts.length}}
+<section>
+    <h2>Your Posts</h2>
+    <div>
+        {{#each posts as |posts|}}
+            {{>post-info posts}}
+        {{/each}}
+    </div>
+</section>
+
+{{/if}}
+
+<script src="/javascript/add-post.js"></script>

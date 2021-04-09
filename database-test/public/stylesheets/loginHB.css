@@ -1,0 +1,29 @@
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: rgb(107, 107, 143);
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: rgb(107, 107, 143);
+    padding: 2rem;
+    margin: 2rem;
+}
+
+label {
+    color: white;
+}

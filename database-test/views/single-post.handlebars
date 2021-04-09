@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/stylesheets/single-postHB.css">
+
+{{> post-info posts}}
+
+{{#if loggedIn}}
+    <div class="center-item">
+        <div class="comment-container">
+            <form class="comment-form">
+                <div>
+                    <textarea name="comment-body"></textarea>
+                </div>
+
+                <div class="comment-buttons">
+                    <button class="add-comment-button" type="submit">ADD COMMENT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+{{/if}}
+
+{{> comments posts.comments}}
+
+{{#if loggedIn}}
+    <script src="/javascript/comment.js"></script>
+{{/if}}
